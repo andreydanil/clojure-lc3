@@ -1,0 +1,48 @@
+Ideally the contents of this document will be on the issue tracker
+when we later open up the project and migrate to Github.
+
+General Simulator TODOs:
+========================
+[#1] Provide testing for the parser module
+[#2] Integrate parser with the actual simulator
+[#3] Decide on the design of the TRAP instruction
+     and the overall memory outline
+[#4] Overall refactoring of the code after integration
+[#5] Implement a whole cycle of:
+     Read a file -> parse it -> simulate it -> output results
+
+Future TODOs:
+=============
+[#1] Parser to be more general (handling of Immed values,
+     handle lowercase characters ..etc)
+[#2] Implement informative error messages for the
+     parser as much as we can
+[#3] Introduce static typing to the codebase
+     (can be incremental - introduce it as we go)
+
+Repo TODOs:
+===========
+[#1] Pick a license for the project
+[#2] Move to github after some initial version is ready
+     and move to a 'fork -> submit pull request' model
+[#3] Lock a specific branch for every version of the simulator
+
+
+Possible Future TODOs:
+=====================
+[#1] Abstract the 'hardware' in different modules
+     (So we can say things like "Oh! We upgraded the memory!"
+      or "We put a fancy video card")
+[#2] Implement a self-hosting Web GUI part for the simulator
+[#3] Implement a debugger module for the simulator
+[#4] Concurrency mechanisms to infinity and beyond!!!
+
+
+Final Notes:
+============
+Ideally, if the project grows some momentum during the
+compiler class and people start contributing, we can
+have our own mailing-list (Google groups provides some
+good options), IRC (It is not banned on the dorms anymore!)
+or even a blog.
+
